@@ -7956,3 +7956,24 @@ DOMAIN-SUFFIX,adx.open-adx.com,REJECT
 DOMAIN-SUFFIX,adservice.sigmob.cn,REJECT
 DOMAIN-SUFFIX,unidesk.alicdn.com,REJECT
 DOMAIN-SUFFIX,mcupdate.gstarcad.com,REJECT
+# 广告域名拦截 Netease Music Advertising 
+host,qzs.qq.com,reject
+host,admusicpic.music.126.net,reject
+host,iadmat.nosdn.127.net,reject
+host,iadmusicmat.music.126.net,reject
+host,iadmusicmatvideo.music.126.net,reject
+host, ntb.lanjie100.com, reject
+ip-cidr, 180.76.76.200/32, reject
+# 酷安AD处理
+host-keyword, pangolin, reject
+host-keyword, pglstat, reject
+# 贴吧AD处理
+ip-cidr, 180.76.76.200/32, reject
+host, im.tieba.baidu.com, reject
+# 爱思助手AD处理
+host, d.image.i4.cn, reject
+# 其他AD处理
+host-keyword, adview, reject
+host-suffix, gdt.qq.com, reject
+host-suffix, u3.ucweb.com, reject
+host, amdc.m.taobao.com, reject
